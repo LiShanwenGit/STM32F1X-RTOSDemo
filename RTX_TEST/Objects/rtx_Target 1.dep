@@ -1,0 +1,37 @@
+Dependencies for Project 'rtx', Target 'Target 1': (DO NOT MODIFY !)
+F (.\USER\main.c)(0x5E6C2ADD)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE\Device\STM32F103RC-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (USER\USART.h)(0x5E58F727)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x562747DE)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+F (.\USER\USART.c)(0x5E683C9F)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE\Device\STM32F103RC-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (USER\USART.h)(0x5E58F727)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x56245D06)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x556D30E4)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE\Device\STM32F103RC-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x562747DE)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\MDK5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x556D30E4)
+F (RTE\Device\STM32F103RC\RTE_Device.h)(0x52431878)()
+F (RTE\Device\STM32F103RC\startup_stm32f10x_hd.s)(0x4F1E2E3C)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE\Device\STM32F103RC-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (RTE\Device\STM32F103RC\system_stm32f10x.c)(0x4F1E2E3C)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE\Device\STM32F103RC-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)

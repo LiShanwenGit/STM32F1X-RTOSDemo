@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.18a
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: li Microsoft, Microsoft, LIC=IC9VE-57NJZ-05MTY-I4GK6-2GW9F-TB7IG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18a
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18a
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      Segger\JL2CM3.dll V2.99.19.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\rtx.uvprojx
+Project File Date:  03/14/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling main.c...
+compiling USART.c...
+compiling RTX_Conf_CM.c...
+assembling startup_stm32f10x_hd.s...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=7412 RO-data=456 RW-data=88 ZI-data=4856  
+".\Objects\rtx.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ::CMSIS:RTOS:1.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0
+   * Component: CORE Version: 4.3.0
+   * Component: Keil RTX Version: 4.80.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil::Device:Startup:1.0.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE
+  C:\Users\Administrator.SD-20190117HCTZ\Desktop\Debug\RTX_TEST\RTE\Device\STM32F103RC
+  D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC
+  D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0 (API)
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.80.0
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Source file:   Device\Source\ARM\startup_stm32f10x_hd.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

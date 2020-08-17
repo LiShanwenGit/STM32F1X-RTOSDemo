@@ -1,0 +1,175 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\CMSIS\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+F (.\CMSIS\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (CMSIS\stm32f10x.h)(0x4D783CB4)
+I (CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (CMSIS\system_stm32f10x.h)(0x4D783CAA)
+F (.\CMSIS\startup_stm32f10x_hd.s)(0x5E6623F5)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 518" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\CMSIS\SysTick.c)(0x5E66EFE2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (CMSIS\SysTick.h)(0x5BB85107)
+I (CMSIS\stm32f10x.h)(0x4D783CB4)
+I (CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+F (.\USER\main.c)(0x5E66EF62)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (.\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\CMSIS\SysTick.h)(0x5BB85107)
+I (USER\USART.h)(0x5E58F727)
+F (.\USER\USART.c)(0x5E664759)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (USER\USART.h)(0x5E58F727)
+I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (.\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+F (.\uCOS\CORE\os_core.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_core.o --omf_browse .\objects\os_core.crf --depend .\objects\os_core.d)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+F (.\uCOS\CORE\os_flag.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_flag.o --omf_browse .\objects\os_flag.crf --depend .\objects\os_flag.d)
+I (uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+F (.\uCOS\CORE\os_mbox.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_mbox.o --omf_browse .\objects\os_mbox.crf --depend .\objects\os_mbox.d)
+I (uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+F (.\uCOS\CORE\os_mem.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_mem.o --omf_browse .\objects\os_mem.crf --depend .\objects\os_mem.d)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+F (.\uCOS\CORE\os_mutex.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_mutex.o --omf_browse .\objects\os_mutex.crf --depend .\objects\os_mutex.d)
+I (uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+F (.\uCOS\CORE\os_q.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_q.o --omf_browse .\objects\os_q.crf --depend .\objects\os_q.d)
+I (uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+F (.\uCOS\CORE\os_sem.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_sem.o --omf_browse .\objects\os_sem.crf --depend .\objects\os_sem.d)
+I (uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+F (.\uCOS\CORE\os_task.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_task.o --omf_browse .\objects\os_task.crf --depend .\objects\os_task.d)
+I (uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+F (.\uCOS\CORE\os_time.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_time.o --omf_browse .\objects\os_time.crf --depend .\objects\os_time.d)
+I (uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+F (.\uCOS\CORE\os_tmr.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_tmr.o --omf_browse .\objects\os_tmr.crf --depend .\objects\os_tmr.d)
+I (uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+F (.\uCOS\PORT\os_cpu_c.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_cpu_c.o --omf_browse .\objects\os_cpu_c.crf --depend .\objects\os_cpu_c.d)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+F (.\uCOS\PORT\os_dbg.c)(0x5950250A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\uCOS\CONFIG -I .\uCOS\CORE -I .\uCOS\PORT -I .\USER-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\os_dbg.o --omf_browse .\objects\os_dbg.crf --depend .\objects\os_dbg.d)
+I (.\uCOS\CORE\ucos_ii.h)(0x5950250A)
+I (.\uCOS\CONFIG\includes.h)(0x5E6630A0)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\MDK5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\ctype.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\MDK5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (.\uCOS\PORT\os_cpu.h)(0x5E66E1E2)
+I (.\uCOS\CONFIG\os_cfg.h)(0x5E662893)
+F (.\uCOS\PORT\os_cpu_a.asm)(0x5E6623E6)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\Administrator.SD-20190117HCTZ\Desktop\OLED\UCOS_TEST\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 518" --pd "STM32F10X_HD SETA 1"--list .\listings\os_cpu_a.lst --xref -o .\objects\os_cpu_a.o --depend .\objects\os_cpu_a.d)
